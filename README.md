@@ -4,7 +4,7 @@ This project demonstrates handwritten digit classification using the MNIST datas
 
 ## Dataset
 
-The project uses the MNIST dataset, a large database of handwritten digits that is commonly used for training various image processing systems. The dataset contains 70,000 images, each being a 28x28 pixel grayscale image.
+The project uses the MNIST dataset, a large database of handwritten digits that is commonly used for training various image processing systems. The dataset contains 70,000 images, each being a 28x28 pixel image.
 
 ## Models
 
@@ -26,14 +26,6 @@ The notebook includes steps for:
 
 The results of the model evaluations, including the confusion matrix, precision, recall, F1-score, ROC curves, and the final test set accuracy for the KNN classifier, are presented in the notebook.
 
-## Usage
-
-This code is designed to run in environments like Google Colaboratory or Jupyter Notebooks.
-
-1.  **Open the notebook**: Open the provided Python notebook in Google Colab or Jupyter.
-2.  **Run the cells**: Execute the code cells sequentially from top to bottom.
-3.  **Explore the results**: Examine the outputs of the cells to see the data exploration, model training process, and performance evaluation metrics.
-
 ## Dependencies
 
 The following libraries are required to run this notebook:
@@ -41,6 +33,4 @@ The following libraries are required to run this notebook:
 *   `sklearn`
 *   `matplotlib`
 *   `numpy`
-*   `pandas` (if not already installed with Colab/Jupyter)
-
-These dependencies can typically be installed using pip:# MNIST-classification
+*   `pandas`
